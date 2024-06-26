@@ -1,2 +1,2 @@
-# Pointer
-an app to simplify digital boards in schools
+# PointPractice
+> ##Helping online teachers with virtual whiteboards make class more interactive

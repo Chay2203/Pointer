@@ -1,0 +1,79 @@
+
+/* CSS */
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0d39e7 #cccccc;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #0d39e7;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  
+.container {
+    margin: 0px auto;
+    
+
+} 
+
+.w3-container{
+  overflow: hidden;
+}
+.w3-container .howTo{
+  width: 200px;
+  float: left;
+  position: relative;
+  left: 10%;
+  top: 5%;
+  padding: 0%;
+}
+
+.wrapper{
+    width: 1300px;
+    height: 740px;
+    border: 10px #333 solid;
+}
+#videoElement {
+    width: 1280px;
+    height: 720px;
+    background-color: rgb(194, 14, 14);
+}
+canvas{
+    position: absolute;
+}
+
+h1{
+  position: absolute;
+  opacity: 0;
+}
+p{
+  position: relative;
+  bottom: 0;
+}
+
+.options{
+  margin-left: 50px;
+}
+
+.options >div{
+  display: grid;
+
+  grid-template-columns: 40% 60%;
+}
+
+.options >div .switch{
+  margin-top: 10px;
+}
